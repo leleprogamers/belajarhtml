@@ -1,0 +1,472 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Helvetica';  
+    font-style: normal;
+}
+header{ 
+    background-color: #F1F3FF;
+    padding-top: 24px;
+}
+
+/* Section Navbar */
+nav {
+    
+    margin: auto;
+    height: 36px;
+    display: flex;
+    padding-left: 136px;
+    /* margin: 0px 136px 0px 136px; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+}
+nav .logo
+{
+    background-color: blue;
+    height: 34px;
+    width: 100px;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 32px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;   
+}
+
+nav ul li a:hover
+{
+    color: blueviolet;
+}
+
+nav ul li:last-child a
+{
+    background-color: #5CB85F;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 8px 12px 8px 12px;
+
+}
+/* end Section Navbar */
+
+/* Section Hero */
+.hero
+{ 
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 136px;
+    display:flex;
+    margin-top: 36px;
+   
+}
+
+.hero .text
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .text h1
+{
+    font-size: 36px;
+    margin:0;
+    margin-top:-50 ;
+    text-align: left;
+}
+.hero .text p
+{
+    font-size: 14px;
+    margin:0;
+    margin-top:16px ;
+    width: 468px;
+    height: 60px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.hero .text .button
+{
+    background: #5CB85F;
+    border-radius: 2px;
+    margin-top:16px ;
+    width: 140px;
+    height: 36px;
+    padding: 8px 12px 8px 12px;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: 0;
+}
+.hero .img-hero
+{
+    margin-left: 151px;
+}
+/* end Section Hero */
+
+/* Section Service */
+.services
+{ 
+    max-width: 1250px;
+    margin: auto;
+    display:flex;
+    margin-top: 104px;
+    width: 1027px;
+    height: 428px;
+}
+
+.services .services-hero
+{ 
+   margin-right: 100px;
+}
+
+.services .services-text
+{
+    margin-top: 10px;
+}
+.services .services-text h1
+{
+    line-height: 36px;
+
+    
+}
+.services .services-text p
+{
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 20px;
+   margin:0;
+}
+
+.services .services-text div
+{
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+}
+.services .services-text img
+{
+   margin-right: 16px;
+}
+/* end Section Service */
+
+/* Section Why-us */
+.why-us
+{ 
+    max-width: 1250px;
+    margin: auto;
+    margin-top: 110px; 
+}
+
+.why-us h1
+{
+    font-size: 24px;   
+    margin:0px;
+    margin-top:16px;
+    margin-bottom:16px;
+}
+
+.why-us p
+{
+    font-weight: 300;
+}
+
+.why-us .wrapper-card
+{
+    display:flex;
+    margin-top:40px;
+}
+.why-us .wrapper-card .card
+{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    padding: 24px;
+    margin-right: 32px;
+    width: 268px;
+}
+.why-us .wrapper-card .card h1
+{
+    font-size: 16px;
+    margin:16px 0px ;
+}
+.why-us .wrapper-card .card p
+{
+    line-height: 20px
+}
+
+/* end Section Why-us */
+
+/* section testimonial */
+.testimonial
+{
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1550px;
+    overflow-x: hidden;
+   
+}
+.testimonial > h1, .testimonial > p
+{
+    text-align: center;
+
+}
+.testimonial  > p
+{
+    font-weight: 300;
+}
+
+.testimonial .wrapper-slide
+{
+    margin-top: 40px;
+    display: flex;
+    margin-left: -300px;
+    width: fit-content;
+}
+
+.testimonial .wrapper-slide .slide
+{
+ width: 618px;
+ border-radius: 8px;
+ background: #F1F3FF;
+ padding: 68PX 32px 68px 46px;
+ display: flex;
+ align-items: center;
+ box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+ margin-right: 32px;
+}
+
+.testimonial .wrapper-slide .slide .img-slide
+{
+    margin-right: 46px;
+}
+.testimonial .wrapper-slide .slide .text-slide p
+{
+    margin:0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 95%;
+}
+.testimonial .wrapper-slide .slide .text-slide .slide-name
+{
+    font-weight: 400;
+}
+
+.testimonial .wrap-arrow
+{
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial .wrap-arrow div
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.testimonial .wrap-arrow div img
+{
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+}
+.testimonial .wrap-arrow div:first-child
+{
+    border: 1px solid #C4C4C4;
+    margin-right: 37.5px;
+}
+.testimonial .wrap-arrow div:last-child
+{
+    border: 1px solid #C4C4C4;
+    background: #5CB85F;
+}
+
+/* end of session testimonial */
+
+/* Session banner */
+.banner
+{
+    margin: auto;
+    max-width: 1250px;
+    margin-top: 100px;
+    background-color: #0D28A6;
+    border-radius: 13px;
+   
+    height: 326px;
+}
+
+.banner .text
+{
+    margin :0px;
+    padding-top: 64px;
+}
+
+.banner .text h1
+{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    margin: 0px;
+    height: 54px;
+}
+
+.banner .text p
+{
+    color: #FFFFFF;
+    text-align: center;
+    width: 468px;
+    height: 40px;
+    margin: 0px;
+    margin-top: 16px;
+    padding-left: 342px;
+    padding-right: 358px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px
+} 
+
+.banner .text .button
+{
+    width: 140px;
+    height: 36px;
+    background: #5CB85F;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: 0px;
+    padding: 8px 12px 8px 12px;
+    margin-left: 514px;
+    margin-right: 514px;
+    margin-top: 52px;
+    margin-bottom: 64px;
+}
+/*end of banner*/
+
+/* faq session*/
+.faq
+{
+    
+    max-width: 1250px;
+    margin: auto;
+    display:flex;
+    margin-top: 100px;   
+}
+
+.faq .faq-text h1
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin:0px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.faq .faq-text p
+{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin:0px;
+    margin-top: 4px;
+}
+
+.faq .faq-list 
+{
+    margin-left: 200px;
+}
+.faq .faq-list .faq-list1
+{
+    display:flex;
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    width: 711px;
+}
+
+.faq .faq-list .faq-list1 div:first-child
+{
+   margin-left: 24px;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 20px;
+   width: 400px;
+}
+
+.faq .faq-list .faq-list1 div:last-child
+{
+   margin:0px;
+   margin-left: 250px;
+   margin-right: 25px;
+   margin-top: 15px;
+}
+
+.footer
+{
+    max-width: 1250px;
+    margin: auto;
+    display:flex;
+    margin-top: 150px;
+}
+
+.footer .alamat
+{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 268px;
+    margin-bottom: 16px;
+    line-height: 20px; 
+}
+.footer .text1
+{
+    margin:0px;
+    margin-left: 86px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;  
+    margin-bottom: 16px;    
+}
+
+.footer .connect
+{
+    margin-left: 86px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.footer .connect div:first-child
+{
+    margin-bottom: 16px;
+}
+.footer .connect img
+{
+    margin-right: 16px;
+}
+.footer .copyright
+{
+    margin-left: 130px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+     
+}
